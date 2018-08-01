@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+    <metadata>
+        <id>AspNetCore.Angular6</id>
+        <version>1.0.0</version>
+        <description>A template for ASP.NET Core with Angular 6</description>
+        <authors>Saeed Ganji (shahabganji@gmail.com)</authors>
+        <language>en-US</language>
+        <projectUrl>https://github.com/PioneerCode/pioneer-console-boilerplate</projectUrl>
+        <licenseUrl>https://github.com/PioneerCode/pioneer-console-boilerplate/blob/master/LICENSE</licenseUrl>
+        <copyright>Copyright 2017: Chad Ramos - Pioneer Code. All right Reserved.</copyright>
+        <requireLicenseAcceptance>true</requireLicenseAcceptance>
+        <packageTypes>
+            <packageType name="Template" />
+        </packageTypes>
+    </metadata>
+</package>>

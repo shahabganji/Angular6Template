@@ -1,0 +1,30 @@
+{
+    "$schema": "http://json.schemastore.org/template",
+    "author": "Saeed Ganji <shahabganji@gmail.com>",
+    "classifications": ["Web", "MVC", "SPA", "Angular 6"],
+    "name": "ASP.NET Core with Angular 6",
+    "tags": {
+        "language": "C#"
+    },
+    "preferNameDirectory": true,
+    "symbols": {
+        "skipRestore": {
+            "type": "parameter",
+            "datatype": "bool",
+            "description": "If specified, skips the automatic restore of the project on create.",
+            "defaultValue": "false"
+        }
+    },
+    "postActions": [{
+        "condition": "(!skipRestore)",
+        "description": "Restore NuGet packages required by this project.",
+        "manualInstructions": [{
+            "text": "Run 'dotnet restore'"
+        }],
+        "actionId": "210D431B-A78B-4D2F-B762-4ED3E3EA9025",
+        "continueOnError": true
+    }],
+    "identity": "AspNetCore.Angular",
+    "shortName": "angular6",
+    "sourceName": "Angular6Template"
+}
