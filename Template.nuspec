@@ -6,12 +6,12 @@
         <description>A template for ASP.NET Core with Angular 6</description>
         <authors>Saeed Ganji (shahabganji@gmail.com)</authors>
         <language>en-US</language>
-        <projectUrl>https://github.com/PioneerCode/pioneer-console-boilerplate</projectUrl>
-        <licenseUrl>https://github.com/PioneerCode/pioneer-console-boilerplate/blob/master/LICENSE</licenseUrl>
-        <copyright>Copyright 2017: Chad Ramos - Pioneer Code. All right Reserved.</copyright>
+        <projectUrl>https://github.com/shahabganji/Angular6Template</projectUrl>
+        <licenseUrl>https://opensource.org/licenses/MIT</licenseUrl>
+        <copyright>Copyright 2017: Saeed Ganji. All right Reserved.</copyright>
         <requireLicenseAcceptance>true</requireLicenseAcceptance>
         <packageTypes>
             <packageType name="Template" />
         </packageTypes>
     </metadata>
-</package>>
+</package>
