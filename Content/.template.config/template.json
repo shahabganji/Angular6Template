@@ -7,6 +7,13 @@
         "language": "C#"
     },
     "preferNameDirectory": true,
+    "primaryOutputs": [{
+			"path": "Angular6Template.csproj"
+		}, {
+			"condition": "(HostIdentifier != \"dotnetcli\" && HostIdentifier != \"dotnetcli-preview\")",
+			"path": "Startup.cs"
+		}
+	],
     "symbols": {
         "skipRestore": {
             "type": "parameter",
@@ -14,7 +21,7 @@
             "description": "If specified, skips the automatic restore of the project on create.",
             "defaultValue": "false"
         }
-    },
+    },    
     "postActions": [{
         "condition": "(!skipRestore)",
         "description": "Restore NuGet packages required by this project.",
@@ -24,7 +31,7 @@
         "actionId": "210D431B-A78B-4D2F-B762-4ED3E3EA9025",
         "continueOnError": true
     }],
-    "identity": "AspNetCore.Angular",
+    "identity": "AspNetCore.Angular6",
     "shortName": "angular6",
     "sourceName": "Angular6Template"
 }
